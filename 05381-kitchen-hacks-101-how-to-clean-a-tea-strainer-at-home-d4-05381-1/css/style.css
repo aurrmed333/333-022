@@ -1,0 +1,493 @@
+/* New */
+/* cta button animation */
+body {
+    background-color: black;
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+}
+
+.txt-format {
+    color: #fffcca;
+    text-align: center;
+    font-weight: bold;
+}
+
+.d-wheel {
+    z-index: 2;
+}
+
+.wheel-border {
+    z-index: 1;
+}
+
+.spin {
+    z-index: 3;
+}
+
+.btn2 {
+    z-index: 4;
+}
+
+#carousel-records {
+    width: 40vw;
+}
+
+.carousel-container {
+    margin-top: 113vw;
+    position: absolute;
+}
+
+.carousel-container img {
+    width: 30vw;
+}
+
+@media only screen and (min-width: 770px) {
+    .section-1 {
+        content: url(../images/bg.png);
+        height: 155vw;
+        width: 36vw;
+        position: relative;
+    }
+
+    .logo {
+        content: url(../images/logo.png);
+        margin-top: 2vw;
+        width: 15vw;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .header {
+        content: url(../images/banner.png);
+        width: 36.5%;
+        position: absolute;
+    }
+
+    .btn-1 {
+        width: 28%;
+        position: absolute;
+        margin-top: 43vw;
+        z-index: 1;
+        cursor: pointer;
+        content: url(../images/cta1.png);
+    }
+
+    .wheel-bg {
+        content: url(../images/bg-wheel.png);
+        position: absolute;
+        width: 32vw;
+        margin-top: 51vw;
+    }
+
+    .coin-l {
+        content: url(../images/coin1.png);
+        position: absolute;
+        width: 6vw;
+        margin-top: 68vw;
+        left: 31.6vw;
+    }
+
+    .coin-r {
+        content: url(../images/coin2.png);
+        position: absolute;
+        width: 6vw;
+        margin-top: 68vw;
+        right: 31.6vw;
+    }
+
+    .jackpot {
+        content: url(../images/jackpot.png);
+        position: absolute;
+        width: 25%;
+        margin-top: 52vw;
+    }
+
+    .jackpot_amnt {
+        position: absolute;
+        color: #f6da1c;
+        font-weight: bold;
+        font-size: 2.4vw;
+        margin-top: 57vw;
+    }
+
+    .wheel-border {
+        content: url(../images/wheel-border.png);
+        position: absolute;
+        width: 40vw;
+        margin-top: 54vw;
+        z-index: 3;
+    }
+
+    .bg-wheel {
+        content: url(../images/bg-wheel.png);
+        width: 35vw;
+        position: absolute;
+        margin-top: 4%;
+    }
+
+    .d-wheel {
+        content: url(../images/wheel.png);
+        position: absolute;
+        width: 28vw;
+        margin-top: 64vw;
+        margin-left: -1vw;
+    }
+
+    .spin {
+        content: url(../images/spin.png);
+        width: 5%;
+        position: absolute;
+        margin-top: 76.5vw;
+        cursor: pointer;
+        z-index: 3;
+    }
+
+    .d-stand {
+        content: url(../images/stand.png);
+        position: absolute;
+        width: 19vw;
+        height: 7vw;
+        margin-top: 90vw;
+    }
+
+    .btn2 {
+        content: url(../images/spin_btn.png);
+        position: absolute;
+        width: 33%;
+        margin-top: 95vw;
+        z-index: 9;
+    }
+
+    .timer {
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 1.4vw;
+        margin-top: 105vw;
+    }
+
+    .payment {
+        content: url(../images/games.png);
+        position: absolute;
+        margin-top: 110vw;
+        width: 34%;
+    }
+
+    .modal-bg-1 {
+        background-image: url(../images/modal_btn_bg.png);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 50vw;
+        width: 50vw;
+        margin: auto;
+    }
+
+    .d-modal_btn1 {
+        margin-top: 29vw;
+        width: 61%;
+        cursor: pointer;
+    }
+
+    .d-modal_btn2 {
+        margin-top: -34vw;
+        width: 100%;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+    }
+
+    .modal-bg-2 {
+        background-image: url(../images/winner.png);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: auto;
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .modal-text-content {
+        margin: 29% 0% 20% 0%;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .modal-footer {
+        border: none;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .modal-text-content {
+        margin: 15% 0% 13% 0%;
+    }
+}
+
+/* Tablets devices (tablets, 768px and down) */
+@media only screen and (max-width: 769px) {
+    #carousel-records {
+        width: 100vw;
+    }
+
+    .carousel-container {
+        margin-top: 305vw;
+        position: absolute;
+    }
+
+    .carousel-container img {
+        width: 80vw;
+    }
+
+    .section-1 {
+        content: url(../images/bg.png);
+        height: 422vw;
+        width: 100%;
+        position: relative;
+    }
+
+    .logo {
+        content: url(../images/logo.png);
+        margin-top: 4vw;
+        width: 45vw;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .header {
+        content: url(../images/banner.png);
+        width: 100%;
+        position: absolute;
+    }
+
+    .btn-1 {
+        position: absolute;
+        width: 70%;
+        margin-top: 117vw;
+        z-index: 1;
+        cursor: pointer;
+        content: url(../images/cta1.png);
+    }
+
+    .wheel-bg {
+        content: url(../images/bg-wheel.png);
+        position: absolute;
+        width: 91%;
+        margin-top: 154vw;
+    }
+
+    .coin-l {
+        content: url(../images/coin1.png);
+        position: absolute;
+        width: 18%;
+        margin-top: 180vw;
+        left: 0vw;
+    }
+
+    .coin-r {
+        content: url(../images/coin2.png);
+        position: absolute;
+        width: 18%;
+        margin-top: 180vw;
+        right: 0vw;
+    }
+
+    .jackpot {
+        content: url(../images/jackpot.png);
+        position: absolute;
+        width: 67%;
+        margin-top: 137vw;
+    }
+
+    .jackpot_amnt {
+        position: absolute;
+        color: #f6da1c;
+        font-weight: bold;
+        font-size: 6.5vw;
+        margin-top: 150vw;
+    }
+
+    .wheel-border {
+        content: url(../images/wheel-border.png);
+        position: absolute;
+        width: 117vw;
+        margin-top: 141vw;
+        z-index: 3;
+    }
+
+    .bg-wheel {
+        content: url(../images/bg-wheel.png);
+        width: 35vw;
+        position: absolute;
+        margin-top: 4%;
+    }
+
+    .d-wheel {
+        content: url(../images/wheel.png);
+        position: absolute;
+        width: 83%;
+        margin-top: 170.7vw;
+        margin-left: -1vw;
+    }
+
+    .spin {
+        content: url(../images/spin.png);
+        position: absolute;
+        width: 14%;
+        margin-top: 206vw;
+        cursor: pointer;
+    }
+
+    .d-stand {
+        content: url(../images/stand.png);
+        position: absolute;
+        width: 56vw;
+        height: 24vw;
+        margin-top: 242.6vw;
+    }
+
+    .btn2 {
+        content: url(../images/spin_btn.png);
+        position: absolute;
+        width: 80%;
+        margin-top: 260vw;
+    }
+
+    .timer {
+        position: absolute;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        font-size: 3vw;
+        margin-top: 283vw;
+    }
+
+    .payment {
+        content: url(../images/games.png);
+        position: absolute;
+        width: 95%;
+        margin-top: 297vw;
+        margin-bottom: 10vw;
+    }
+
+    .modal-bg-1 {
+        background-image: url(../images/modal_btn_bg.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .d-modal_btn1 {
+        margin: 37vw 0% 3vw 0vw;
+        width: 62%;
+        cursor: pointer;
+    }
+
+    .d-modal_btn2 {
+        margin-top: -89vw;
+        width: 71%;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+    }
+
+    .modal-bg-2 {
+        background-image: url(../images/winner.png);
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vw;
+    }
+
+    .modal-text-content {
+        margin: 25vw 0 19vw 0;
+        color: white;
+        text-transform: uppercase;
+        font-size: 3vw;
+        font-weight: 700;
+    }
+
+    .modal-footer {
+        border: none;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .modal-text-content {
+        margin: 21vw 0 15vw 0;
+    }
+
+    .d-modal_btn2 {
+        /* margin-top: -43vw; */
+    }
+
+    #carousel-records {
+        width: 105vw;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .d-modal_btn2 {
+        /* margin-top: -25vw; */
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .d-modal_btn2 {
+        margin-top: -41vw;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .modal-text-content {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .d-modal_btn2 {
+        /* margin-top: -44vw; */ /* width: 35vw; */
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .d-modal_btn2 {
+        /* margin-top: -40vw; */
+    }
+
+    #carousel-records {
+        width: 100vw;
+    }
+
+    .modal-text-content {
+        font-size: 0.65rem;
+    }
+
+    /* .modal-text-content {
+        margin: 21vw 0 15vw 0;
+    }
+
+    .d-modal_btn2 {
+        margin-top: -43vw;
+    }
+
+    #carousel-records {
+        width: 105vw;
+    } */
+}
+
+@media only screen and (max-width: 345px) {
+    .d-modal_btn2 {
+        /* margin-top: -45vw; */
+    }
+}
