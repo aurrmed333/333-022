@@ -1,0 +1,440 @@
+<!doctype html>
+<html onclick="bbscriptOnClick()">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBC22</title>
+    <link rel="icon" type="images/ico" href="images/favicon.ico">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/animation.css" />
+    <link href="./styles/custom-styles.css" rel="stylesheet">
+    <link href="./styles/Futura-Medium.otf" rel="stylesheet">
+    <script type="text/javascript" src="https://zenacentre.com/backbutton/ibcmyc/rolfix.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://kenwheeler.github.io/slick/slick/slick.css" />
+    <style>
+        @font-face {
+            font-family: 'Futura-Medium';
+            src: url('./styles/Futura-Medium.otf') format('opentype');
+        }
+
+        @font-face {
+            font-family: 'Futura-Bold';
+            src: url('./styles/Futura-Bold.otf') format('opentype');
+        }
+
+        body {
+            background-color: #bdbdbd;
+            font-family: 'Futura-Bold';
+            font-weight: 500;
+        }
+    </style>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .x-center {
+            @apply left-1/2 translate-x-[-50%]
+          }
+    
+          .items {
+            @apply p-2 transition duration-150 ease-out hover:ease-in hover:scale-110
+          }
+    
+          .items img {
+            @apply w-full 
+          }
+    
+          .is-disabled {
+            @apply pointer-events-none
+          }
+
+          .text-drop {
+            text-shadow: 2px 2px #737171;
+          }
+
+          .text-drop-1 {
+            text-shadow: 1px 1px #0808087c;
+          } 
+
+          .text-drop-none {
+            text-shadow: none;
+          }
+        }
+      </style>
+
+<meta http-equiv="delegate-ch" content="sec-ch-ua https://celaysimplined.com; sec-ch-ua-mobile https://celaysimplined.com; sec-ch-ua-arch https://celaysimplined.com; sec-ch-ua-model https://celaysimplined.com; sec-ch-ua-platform https://celaysimplined.com; sec-ch-ua-platform-version https://celaysimplined.com; sec-ch-ua-bitness https://celaysimplined.com; sec-ch-ua-full-version-list https://celaysimplined.com; sec-ch-ua-full-version https://celaysimplined.com"><style>.dtpcnt{opacity: 0;}</style>
+<script>
+    (function(d,c,k,l,r,t,g,u,A,e,m,v,B,a,n,p,h,q,w,D,x){function y(){for(var f=c.querySelectorAll(".dtpcnt"),b=0,a=f.length;b<a;b++)f[b][u]=f[b][u].replace(/(^|\s+)dtpcnt($|\s+)/g,"")}function C(a,b,d,e){var f=new Date;f.setTime(f.getTime()+(e||864E5));c.cookie=a+"="+b+"; "+d+"samesite=Strict; expires="+f.toGMTString()+"; path=/";k.setItem(a,b);k.setItem(a+"-expires",f.getTime())}function z(a){var b=c.cookie.match(new RegExp("(^| )"+a+"=([^;]+)"));return b?b.pop():k.getItem(a+"-expires")&&+k.getItem(a+
+"-expires")>(new Date).getTime()?k.getItem(a):null}x="https:"===d.location.protocol?"secure; ":"";d[e]||(d[e]=function(){(d[e].q=d[e].q||[]).push(arguments)},p=c[r],c[r]=function(){p&&p.apply(this,arguments);if(d[e]&&!d[e].hasOwnProperty("params")&&/loaded|interactive|complete/.test(c.readyState))for(;a=c[t][m++];)/\/?click\/?($|(\/[0-9]+)?$)/.test(a.pathname)&&(a[g]="javascrip"+d.postMessage.toString().slice(4,5)+":"+e+'.l="'+a[g]+'",void 0')},setTimeout(function(){(q=/[?&]cpid(=([^&#]*)|&|#|$)/.exec(d.location.href))&&
+q[2]&&(h=q[2],w=z("vl-"+h));var f=z("vl-cep"),b=location[g];if("savedCep"===B&&f&&(!h||"undefined"===typeof h)&&0>b.indexOf("cep=")){var e=-1<b.indexOf("?")?"&":"?";b+=e+f}a=c.createElement("script");n=c.scripts[0];a.defer=1;a.src=v+(-1===v.indexOf("?")?"?":"&")+"lpref="+l(c.referrer)+"&lpurl="+l(b)+"&lpt="+l(c.title)+"&vtm="+(new Date).getTime()+(w?"&uw=no":"");a[A]=function(){for(m=0;a=c[t][m++];)/dtpCallback\.l/.test(a[g])&&(a[g]=decodeURIComponent(a[g]).match(/dtpCallback\.l="([^"]+)/)[1]);y()};
+n.parentNode.insertBefore(a,n);h&&C("vl-"+h,"1",x)},0),setTimeout(y,7E3))})(window,document,localStorage,encodeURIComponent,"onreadystatechange","links","href","className","onerror","dtpCallback",0,"https://celaysimplined.com/d/ea140228-3ecd-4b6b-a1aa-c5143e2d1877.js","savedCep");
+</script>
+<noscript><link href="https://celaysimplined.com/d/ea140228-3ecd-4b6b-a1aa-c5143e2d1877.js?noscript=true&lpurl=" rel="stylesheet"/></noscript>
+
+</head>
+
+<body>
+    <div class="bg-[#02050e] flex flex-col items-center justify-center main-bg">
+        <div class="animate__animated flex items-center overflow-hidden relative">
+            <img class="max-[768px]:w-screen mx-auto max-w-screen-md" src="images/bg.png" alt="Background">
+
+            <div class="absolute top-[1%] z-50">
+                <div class="relative">
+                    <img class="mx-auto w-[90%]" src="images/header.png" alt="Ronaldinho">
+                    <div class="absolute bottom-[-19%] z-[999] w-full">
+                        <div class="cursor-pointer" onclick="goToStartSpin()">
+                            <img id="goto-start-spin-cta" class="mx-auto w-[75%] zoom2" src="images/claim-now-btn.png"
+                                alt="Claim now">
+                        </div>
+                    </div>
+                    <div class="max-md:text-[100%] text-[180%] text-center text-drop-1 text-white uppercase">
+                        快！优惠将在 <span style="color: #ff0000;" id="counter-front"></span>后结束！
+                    </div>
+                    <div class="absolute bottom-[-51%] text-center w-[60%] x-center z-50">
+                        <div class="relative">
+                            <img id="jackpot-frame" class="mx-auto" src="images/jackpot-frame.png" alt="Jackpot frame">
+                            <div
+                                class="absolute  max-md:text-[120%] max-md:top-[45%] top-[50%] text-[220%] text-[#fff] w-full">
+                                <div class="font-bold text-[90%] amount">RM <span id="counter" class="counting"
+                                        data-value="6232884">6,232,884</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="absolute flex flex-col top-[45%] w-full z-40">
+                <div class="relative w-full">
+                    <img id="wheel-border" class="max-[768px]:w-full mx-auto relative w-full z-30"
+                        src="images/wheel-on-2.png" alt="Wheel on">
+
+                    <div class="absolute left-[50%] translate-x-[-49%] top-[15%] w-[65%]">
+                        <img id="wheel" class="animate__animated w-full " src="images/wheel.png" alt="Wheel">
+                    </div>
+                </div>
+                <div class="absolute bottom-[15%] z-[999] w-full">
+                    <div class="cursor-pointer" onclick="startSpin(this)">
+                        <img id="claim-now-cta" class="mx-auto w-[70%] zoom2" src="images/claim-now.png"
+                            alt="Claim now">
+                    </div>
+                </div>
+            </div>
+
+            <div class="absolute top-[71%]  x-center w-full">
+
+                <div class="mt-[5%] w-full">
+                    <img class="mx-auto w-[60%]" src="images/IBC22-precord.png" alt="IBC22 Player's record">
+                </div>
+
+                <div class="max-[768px]:w-full mt-0 mx-auto records-carousel px-4 relative w-[98%]">
+                    <div>
+                        <img src="images/record-1.png" alt="Record">
+                    </div>
+                    <div>
+                        <img src="images/record-2.png" alt="Record">
+                    </div>
+                    <div>
+                        <img src="images/record-3.png" alt="Record">
+                    </div>
+                    <div>
+                        <img src="images/record-4.png" alt="Record">
+                    </div>
+                    <div>
+                        <img src="images/record-5.png" alt="Record">
+                    </div>
+                </div>
+            </div>
+
+            <div class="absolute top-[87%] x-center w-full">
+                <img class="mx-auto w-[90%]" src="images/partners.png" alt="Partners">
+            </div>
+
+        </div>
+    </div>
+
+    <audio id="spin-audio" preload="auto" src="media/spin-sound.mp3">
+        <p>Your browser does not support the audio element</p>
+    </audio>
+    <audio id="bg-audio" preload="auto" src="media/bg-music.mp3">
+        <p>Your browser does not support the audio element</p>
+    </audio>
+
+    <!-- popup msg -->
+    <span style="display: none;" id="itemCountDown">75</span>
+
+
+    <div class="modal fade" id="sorry-modal" tabindex="-1" role="dialog" aria-hidden="true" data-bs-backdrop="static"
+        data-bs-keyboard="false">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="max-[768px]:p-0 modal-body modal-bg">
+                    <div class="relative">
+                        <img src="images/try-again.png" alt="Sorry popup">
+                        <div class="absolute bottom-0 flex flex-col h-100 items-center justify-end text-center w-full">
+
+                            <button onclick="startSpin(this)" class="block mb-2">
+                                <img class="max-md:w-[55%] mx-auto w-[90%]" src="images/spin-again-btn.png">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Winner Modal -->
+    <div class="modal fade" id="winner-modal" tabindex="-1" role="dialog" aria-hidden="true" data-bs-backdrop="static"
+        data-bs-keyboard="false">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="max-md:p-0 modal-body modal-bg">
+                    <div class="relative">
+                        <img src="images/winner.png" alt="winner popup">
+                        <div
+                            class="absolute bottom-[9%] flex flex-col h-100 items-center justify-end text-center w-full">
+                            <h1
+                                class="max-md:mb-2 max-md:mt-[20%] max-md:text-[130%] mb-[.8rem] mt-[15%] text-[4vh] text-drop text-white uppercase">
+                                <span class="font-bold">288次免费旋转
+                                    <br> 已为你准备就绪！</span>
+                            </h1>
+                            <a href="https://celaysimplined.com/click" target="_blank"
+                                class="block grid place-items-center">
+                                <img class="max-md:w-[50%] w-[90%] zoom2 delay-2" src="images/cta2.png">
+                            </a>
+                            <!-- <p class="font-bold max-md:text-[80%] mt-2 text-[150%] text-drop text-white">此限时优惠截止于
+                                <span class="text-[#ff0000] p-[1px] text-drop-none" id="counter-win">10:00</span>
+                            </p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://kenwheeler.github.io/slick/slick/slick.min.js"></script>
+    <script>
+        let winState = false;
+        document.addEventListener('DOMContentLoaded', function () {
+
+            $('.records-carousel').slick({
+                autoplay: true,
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                prevArrow: `<button type="button" class="absolute left-[-2%] scale-x-[-1] top-1/2 translate-y-[-50%] slick-prev">
+                      <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 6L15 12L9 18" stroke="#bdbdbd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </button>`,
+                nextArrow: `<button type="button" class="absolute right-[-3%] top-1/2 translate-y-[-50%] slick-next">
+                    <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 6L15 12L9 18" stroke="#bdbdbd" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </button>`
+            });
+
+            var wBorder = document.getElementById("wheel-border");
+            var spinTrigger = document.getElementById("spin-trigger");
+            var link = document.getElementById("cta-link");
+            var toggleBorder = false;
+
+            setInterval(function () {
+
+            }, 500);
+            const counterFront = document.getElementById("counter-front");
+            countdown(10, 1000, counterFront);
+
+            bgAudio = document.getElementById('bg-audio');
+            spinAudio = document.getElementById('spin-audio');
+
+        });
+
+        function playBgAudio() {
+            if (bgAudio.paused) {
+                bgAudio.play();
+            }
+        }
+
+        const startValue = 28310000.00;
+        const endValue = 28310906.00;
+        const duration = 5 * 60 * 1000; // 5 minutes in milliseconds
+        const totalIncrements = endValue - startValue;
+
+        let startTime = null;
+        const counterElement = document.getElementById('counter');
+
+        function updateCounter(currentTime) {
+            if (!startTime) startTime = currentTime;
+
+            const elapsedTime = currentTime - startTime;
+            const progress = Math.min(elapsedTime / duration, 1); // Ensure it doesn't exceed 1
+            const currentValue = startValue + (totalIncrements * progress);
+
+            // Update the counter text with formatted value
+            counterElement.innerText = currentValue.toLocaleString('en-US', {
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2
+            });
+
+            if (progress < 1) {
+                requestAnimationFrame(updateCounter); // Continue updating
+            }
+        }
+
+        requestAnimationFrame(updateCounter); // Start the counter
+
+        function goToStartSpin() {
+            playBgAudio();
+            var wheelBorder = document.getElementById("wheel-border");
+            wheelBorder.scrollIntoView({
+                behavior: "smooth"
+            });
+        }
+
+        function startSpin(self) {
+            playBgAudio();
+            const wheel = document.getElementById("wheel");
+            if (!winState) {
+                if (!wheel.classList.contains("spinning-failed")) {
+                    wheel.classList.add('spinning-failed');
+                }
+
+                if (spinAudio.paused) {
+                    spinAudio.currentTime = 2.5;
+                    spinAudio.play();
+
+                    let t = setTimeout(function () {
+                        spinAudio.pause();
+                        clearTimeout(t);
+                    }, 5000);
+                }
+            } else {
+                if (!wheel.classList.contains("spinning")) {
+                    wheel.classList.remove('spinning-failed');
+                    wheel.classList.add('spinning');
+                }
+
+                spinAudio.currentTime = 2.5;
+                spinAudio.play();
+
+                let t = setTimeout(function () {
+                    spinAudio.pause();
+                    clearTimeout(t);
+                }, 7000);
+
+            }
+
+            var mainCta = document.getElementById("claim-now-cta");
+            var gotoStartSpin = document.getElementById("goto-start-spin-cta");
+            mainCta.classList.remove("zoom2")
+            //pressed animation
+            self.classList.add("animate__pulse");
+            self.classList.add("is-disabled");
+
+            if (winState) {
+                $("#sorry-modal").modal("hide");
+            }
+
+            //
+            setTimeout(function () {
+                if (!winState) {
+                    $("#sorry-modal").modal("show");
+                    winState = true;
+                } else {
+                    gotoStartSpin.classList.remove("zoom2");
+                    $("#winner-modal").modal("show");
+                    const counter = document.getElementById("counter-win");
+                    countdown(10, 1000, counter); // Set 30 milliseconds
+                }
+
+            }, 4500);
+        }
+
+        // Countdown function
+        function countdown(val, interval, elem) {
+            var milliseconds = 60;
+            var seconds = val;
+
+            function tick() {
+                let current_timer = seconds - 1;
+                milliseconds--;
+                elem.innerHTML = current_timer.toString() + ":" + (milliseconds < 10 ? "0" : "") + String(milliseconds);
+                if (milliseconds > 0) {
+                    setTimeout(tick, interval);
+                } else {
+                    if (seconds > 1) {
+                        countdown(seconds - 1);
+                    }
+                }
+            }
+            tick();
+        }
+
+        function createAlertBox(text) {
+            var alertContainer = $("#AlertBoxContainer");
+            if (!alertContainer.length) {
+                alertContainer = $('<div id="AlertBoxContainer">').appendTo("body");
+            }
+            var msgBox = $("<div>" + text + "</div>").prependTo(alertContainer);
+            msgBox.find(".close").on("click", function () {
+                msgBox.slideUp();
+            });
+
+            setTimeout(function () {
+                msgBox.slideUp();
+            }, 5000);
+        }
+
+        $("#itemCountDown").each(function () {
+            var $this = $(this);
+
+            var counter = 30 + parseInt(60 * Math.random());
+            $this.html(counter);
+            var percentCount = 99;
+            var percentInterval = setInterval(function () {
+                if (percentCount == counter) {
+                    clearInterval(percentInterval);
+                }
+                $("#itemProgressDownBar").css({
+                    width: percentCount-- + "%",
+                });
+            }, 30);
+
+            var randomPics = [
+                "images/win1.png",
+                "images/win2.png",
+                "images/win3.png",
+                "images/win4.png",
+                "images/win5.png",
+            ];
+
+
+            var sellOneItem = function () {
+                $this.addClass("counter-changing");
+                setTimeout(function () {
+                    $this.removeClass("counter-changing");
+                    $this.html(--counter);
+                    $("#itemProgressDownBar").attr("style", "width:" + counter + "%;");
+                    var valueRand = parseInt(Math.random() * (randomPics.length - 1));
+                    var randomPic = randomPics[valueRand];
+                    createAlertBox('<img class="alertImg" src="' + randomPic + '">');
+                    sellNextItem();
+                }, 0);
+            };
+            var sellNextItem = function () {
+                var time = 5000 + parseInt(Math.random() * 5000);
+                setTimeout(sellOneItem, time);
+            };
+
+            sellNextItem();
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+.modal-content {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+}
+
+
+#AlertBoxContainer {
+    position: fixed;
+    left: 2vw;
+    bottom: 0vw;
+    z-index: 99;
+}
+
+/* desktops, tablets devices (768px and up) */
+@media only screen and (min-width:768px) {
+    .alertImg {
+        width: 30vw;
+    }
+}
+
+/* Tablets, phones devices (767.98px and down) */
+@media only screen and (max-width:767.98px) {
+    .alertImg {
+        width: 65vw;
+    }
+
+    #AlertBoxContainer {
+        left: -5vw;
+        bottom: 0vw;
+    }
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    will-change: transform;
+}
+
+.carousel-image {
+    flex-shrink: 0;
+    width: 100%;
+    object-fit: contain;
+    /* Adjust based on the desired appearance */
+}
+
+
+.jackpot {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #FFD700;
+    text-shadow: 0 0 10px #6b6b6b, 0 0 20px #6b6b6b, 0 0 30px #FFA500, 0 0 40px #FFA500, 0 0 50px #FF4500;
+}
+
+.amount {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFD700;
+    text-shadow: 0 0 10px #6b6b6b, 0 0 20px #6b6b6b, 0 0 30px #FFA500, 0 0 40px #FFA500, 0 0 50px #FF4500;
+}
